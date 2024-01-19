@@ -22,14 +22,10 @@ div{
     border-style: solid;
     border-radius: 5px;
     text-align: center;
-    /* width:fit-content; */
     margin-inline-start: 200px;
     margin-inline-end: 200px;
     padding-left: 25px;
     padding-right: 25px;
-    /* max-width: 100%; */
-
-
 }
 .para
 {
@@ -64,15 +60,12 @@ ul
 {
     text-align: end;
     padding-inline-end: 150px;
-    /* padding-top: 200px; */
 }
 .list2
 {
     padding-inline-start: 500px;
     padding-right: 100px;
     font-size: 20px;
-    /* text-align: end; */
-    /* padding-top: 400px; */
     
 }
 .button
@@ -86,7 +79,6 @@ ul
     text-align: start;
     padding-right: 260px;
     font-size: 20px;
-    /* scroll-behavior: smooth; */
     margin-inline-end: 150px;
     list-style-type:;
 
@@ -99,8 +91,6 @@ body
 {
     width: 300px;
     background-color: #f2f2f2;
-    /* margin-left: 800px; */
-    /* margin-bottom: 500px ; */
     height:auto;
     padding-bottom: 0px;
 }
@@ -117,12 +107,6 @@ body
    height: fit-content;
    width: 100%;
 }
-/* .dots
-{
-    height: 200px;
-    width: 300px;
-    background-color:rgb(204, 215, 215);
-} */
 .girl
 {
     height: 350px;
@@ -170,7 +154,8 @@ body
     margin-inline-end: 0px;
     margin: 0px;
     max-width: 300%;
-    overscroll-behavior-x:none ;
+    overflow: scroll;
+    overflow: hidden;
     
 
 
